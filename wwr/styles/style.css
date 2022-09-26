@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 .logo {
@@ -11,6 +17,7 @@ nav a {
     text-align: center;
     color:#FFECD1;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -34,6 +41,10 @@ main section {
     text-align: center; 
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: white;
@@ -41,6 +52,10 @@ main section {
 
 body {
     background-color: #FFECD1;
+    font-family: Comfortaa, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -51,6 +66,10 @@ header {
     background-color:#78290F;
     color:#FFECD1;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -60,18 +79,26 @@ header {
 
 .msg {
     background-color:#78290F;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color:#001524;
+    font-family: Bebas Neue, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .msg p {
     color:#FFECD1;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #001524;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -95,14 +122,30 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .home-title {
     color:#15616D;
+    font-family: Bebas Neue, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color:#78290F;
+}
+
+.rivers-card, .camping-card, .rapids.card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
 }
