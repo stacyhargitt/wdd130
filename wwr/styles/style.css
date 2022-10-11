@@ -220,8 +220,85 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+.rates-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.rates-title {
+    color:#15616D;
+    font-family: Bebas Neue, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px; 
+}
+
+#rates-msg {
+    text-align: center;
+    margin: 30px;
+}
+
+.grandcanyon-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 50px;
+}
+
+.grandcanyon-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 50px;
+}
+
+.grandcanyon2-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 50px;
+}
+
+.grandcanyon2-msg {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 50px;
+}
+
+.salmonriver-img {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 50px;
+}
+
+.salmonriver-msg {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 50px;
+}
+
+.desolation-img {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin: 50px;
+}
+
+.desolation-msg {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin: 50px;
+}
+
+h5 {
+    color:#15616D;
+    font-family: Bebas Neue, Helvetica, sans-serif;
+    font-size: 2em; 
+}
+
+#small {
+    font-family: Comfortaa, Arial, sans-serif;
+    font-size: 1em;
+}
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rates-grid {
         display: block;
         height: auto;
     }
@@ -241,7 +318,7 @@ h4 {
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, .rates-title {
         font-size: 25px;
         color: #6f7364;
     }
@@ -256,6 +333,10 @@ h4 {
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    .grandcanyon-pic, .salmonriver-pic, .desolation-pic, .grandcanyon-txt, .salmonriver-txt, .desolation-txt {
+        width: 60%;
+        margin: 50px;
     }
     footer {
         margin-top: 25px;
