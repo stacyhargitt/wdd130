@@ -248,6 +248,8 @@ h4 {
     grid-column: 2/3;
     grid-row: 1/2;
     margin: 50px;
+    text-align: right;
+    padding-right: 80px;
 }
 
 .grandcanyon2-img {
@@ -259,7 +261,8 @@ h4 {
 .grandcanyon2-msg {
     grid-column: 1/2;
     grid-row: 2/3;
-    margin: 10px;
+    margin: 50px;
+    margin-top: 10px;
 }
 
 .salmonriver-img {
@@ -272,6 +275,8 @@ h4 {
     grid-column: 2/3;
     grid-row: 3/4;
     margin: 50px;
+    text-align: right;
+    padding-right: 80px;
 }
 
 .desolation-img {
@@ -292,7 +297,7 @@ h5 {
     font-size: 2em; 
 }
 
-#small {
+.small {
     font-family: Comfortaa, Arial, sans-serif;
     font-size: 1em;
 }
