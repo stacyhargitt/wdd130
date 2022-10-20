@@ -129,13 +129,50 @@ footer p {
     padding: 30px;
 }
 
-.moms-card h2, .juniors-card h2, .sword-card h2, .acting-card h2, .food-card h2, .quest-card h2 {
-    text-align:center;
+.card-img {
+    align-items: center;
+    width: 100%;
 }
 
-.moms-img, .juniors-img, .sword-img, .acting-img, .food-img, .quest-img {
-    border: 5px solid black;
-    align-items: center;
+.container {
+    position: relative;
+    width: 100%;
+}
+  
+.card-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Lakki Reddy, Courier, monospace;
 }
 
 #membership-info, #registration-info {
