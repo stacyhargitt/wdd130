@@ -155,7 +155,7 @@ footer p {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color:#00417A;
 }
   
 .container:hover .overlay {
@@ -163,7 +163,7 @@ footer p {
 }
   
 .text {
-    color: white;
+    color:#DEDFE4;
     font-size: 20px;
     position: absolute;
     top: 50%;
