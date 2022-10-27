@@ -177,10 +177,12 @@ footer p {
 
 #membership-info, #registration-info {
     text-align: center;
+    font-family: Lakki Reddy;
 }
 
 .membership-msg p {
     padding: 50px;
+    font-family: Signika Negative;
 }
 
 .registration-title {
@@ -192,6 +194,7 @@ footer p {
     grid-template-columns: 1fr 1fr 1fr;
     padding-right: 100px;
     padding-left: 100px;
+    font-family: Signika Negative;
 }
 
 .pre-card, .open-card, .dues-card {
@@ -201,6 +204,7 @@ footer p {
 .msg {
     grid-column: span 2;
     padding: 100px;
+    font-family: Signika Negative;
 }
 
 .lighthouse-bw {
@@ -213,10 +217,12 @@ footer p {
     background-color: #00417A;
     text-align: center;
     font-size: 2em;
+    font-family: Lakki Reddy;
 }
 
 #FAQ-msg p {
     padding-top: 80px;
     padding-left: 300px;
     padding-right: 300px;
+    font-family: Signika Negative;
 }
